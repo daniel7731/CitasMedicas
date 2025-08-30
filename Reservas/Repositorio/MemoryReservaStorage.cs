@@ -3,7 +3,7 @@ using System.Collections;
 
 namespace Reservas.Repositorio
 {
-    public class MemoryReservaStorage : IReservaStorage, IStorage
+    public class MemoryReservaStorage : IReservaStorage
     {
         private Dictionary<Int32, Reserva> collection;
         private int IdCount;
@@ -28,11 +28,6 @@ namespace Reservas.Repositorio
         }
 
         public Reserva EncontrarReserva(Reserva reserva)
-        {
-            throw new NotImplementedException();
-        }
-
-        public string GetConnectionString()
         {
             throw new NotImplementedException();
         }

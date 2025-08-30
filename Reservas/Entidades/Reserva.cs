@@ -1,6 +1,7 @@
-﻿namespace Reservas.Entidades
+﻿
+namespace Reservas.Entidades
 {
-    public class Reserva
+    public class Reserva 
     {
         public int Id { get; set; }  
         public DateTime FechaHora { get; set; }
